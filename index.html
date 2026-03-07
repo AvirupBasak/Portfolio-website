@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avirup Basak — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <!-- Phosphor Icons CDN -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <!-- ========== CUSTOM CURSOR ========== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-bracket">&lt;</span>
+      <span class="brand-name">Portfolio</span>
+      <span class="brand-bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#goals" class="nav-link">Goals</a></li>
+      <li><a href="#hobby" class="nav-link">Photography</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <canvas id="heroCanvas"></canvas>
+      <div class="hero-grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag reveal-up">
+        <span class="dot pulse"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name reveal-up delay-1">
+        <span class="name-line">Avirup</span>
+        <span class="name-line accent-text">Basak</span>
+      </h1>
+      <p class="hero-title reveal-up delay-2">
+        Aspiring Software Developer <span class="sep">✦</span> AI Enthusiast
+      </p>
+      <p class="hero-intro reveal-up delay-3">
+        BCA student turning curiosity into code — building intelligent systems,
+        exploring the frontiers of AI, and crafting digital experiences that matter.
+      </p>
+      <div class="hero-buttons reveal-up delay-4">
+        <a href="#"  class="btn btn-primary" download> <!-- .......................add resume here.......................................................... -->
+          <i class="ph ph-download-simple"></i> Download Resume
+        </a>
+        <a href="#projects" class="btn btn-outline">
+          <i class="ph ph-arrow-right"></i> View Projects
+        </a>
+      </div>
+      <div class="hero-stats reveal-up delay-5">
+        <div class="stat"><span class="stat-num">6th</span><span class="stat-label">Semester</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Languages</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Curiosity</span></div>
+      </div>
+    </div>
+    <!-- Edit this scroll text............................................................................................. -->
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">// about_me</div>
+      <div class="about-grid">
+        <div class="about-image-col reveal-left">
+          <div class="image-frame">
+            <div class="image-placeholder">
+              <i class="ph ph-user-circle"></i>
+              <!-- Replace this div with: <img src="your-photo.jpg" alt="Avirup Basak" />................................................. -->
+              <span>Avirup Basak</span>
+            </div>
+            <div class="frame-corner tl"></div>
+            <div class="frame-corner tr"></div>
+            <div class="frame-corner bl"></div>
+            <div class="frame-corner br"></div>
+          </div>
+          <div class="about-tag-stack">
+            <div class="about-tag">BCA Student</div>
+            <div class="about-tag">AI Learner</div>
+            <div class="about-tag">Open Source</div>
+          </div>
+        </div>
+        <div class="about-text-col reveal-right">
+          <h2 class="section-title">Who I Am</h2>
+          <p class="about-bio">
+            Hey! I'm <strong>Avirup Basak</strong> — a passionate BCA student currently in my 6th semester,
+            deeply in love with everything tech. From writing my first lines of C to exploring the
+            depths of Java and web development, every line of code has been a new adventure.
+          </p>
+          <p class="about-bio">
+            My real obsession is <strong>Artificial Intelligence</strong>. I'm on a mission to learn Python,
+            TensorFlow, and deep learning — building toward creating intelligent systems that
+            solve real-world problems. I believe technology isn't just a career; it's a superpower.
+          </p>
+          <p class="about-bio">
+            When I'm not coding, you'll find me exploring the world through my camera lens,
+            following the latest from SpaceX, OpenAI, and Google, or diving into a rabbit hole
+            of tech documentation at 2 AM.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="ph ph-graduation-cap"></i>
+              <span>Bachelor of Computer Applications (BCA)</span>
+            </div>
+            <div class="detail-item">
+              <i class="ph ph-map-pin"></i>
+              <span>West Bengal, India</span>
+            </div>
+            <div class="detail-item">
+              <i class="ph ph-github-logo"></i>
+              <a href="https://github.com/AvirupBasak" target="_blank">github.com/AvirupBasak</a>
+            </div>
+            <div class="detail-item">
+              <i class="ph ph-translate"></i>
+              <span>Bengali (Native) · English (Fluent)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal-up">// tech_stack</div>
+      <h2 class="section-title center reveal-up">Skills & Technologies</h2>
+      <p class="section-sub reveal-up">Technologies I've worked with and am currently learning</p>
+
+      <div class="skills-grid">
+        <!-- Each skill card -->
+        <div class="skill-card reveal-up" style="--delay: 0.0s">
+          <div class="skill-icon" style="--color: #e8a87c">
+            <i class="ph ph-code"></i>
+          </div>
+          <h3>C Programming</h3>
+          <p>Fundamentals, DSA, Memory Management</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.05s">
+          <div class="skill-icon" style="--color: #e44d26">
+            <i class="ph ph-file-html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Semantic Markup, Accessibility, Forms</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 90%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.1s">
+          <div class="skill-icon" style="--color: #264de4">
+            <i class="ph ph-paint-brush"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, Animations, Responsive</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.15s">
+          <div class="skill-icon" style="--color: #f7df1e">
+            <i class="ph ph-lightning"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>DOM, ES6+, Async, APIs</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 72%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.2s">
+          <div class="skill-icon" style="--color: #5382a1">
+            <i class="ph ph-coffee"></i>
+          </div>
+          <h3>Java</h3>
+          <p>OOP, Advanced Java, Web Applications</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.25s">
+          <div class="skill-icon" style="--color: #8993be">
+            <i class="ph ph-globe"></i>
+          </div>
+          <h3>PHP</h3>
+          <p>Server-side, MySQL Integration, CRUD</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 68%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.3s">
+          <div class="skill-icon" style="--color: #00acd7">
+            <i class="ph ph-database"></i>
+          </div>
+          <h3>SQL / Oracle</h3>
+          <p>Queries, Database Design, Oracle 21c</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 70%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.35s">
+          <div class="skill-icon" style="--color: #4ec9b0">
+            <i class="ph ph-terminal"></i>
+          </div>
+          <h3>Unix / Shell</h3>
+          <p>Shell Scripting, Commands, File System</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 60%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.4s">
+          <div class="skill-icon" style="--color: #ff6b6b">
+            <i class="ph ph-tree-structure"></i>
+          </div>
+          <h3>Data Structures</h3>
+          <p>Arrays, Linked Lists, Trees, Graphs</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 65%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up learning-card" style="--delay: 0.45s">
+          <div class="skill-icon" style="--color: #00d4ff">
+            <i class="ph ph-brain"></i>
+          </div>
+          <h3>Python / AI <span class="learning-badge">Learning</span></h3>
+          <p>TensorFlow, CNNs, Deep Learning</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 30%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.5s">
+          <div class="skill-icon" style="--color: #f05032">
+            <i class="ph ph-git-branch"></i>
+          </div>
+          <h3>Git / GitHub</h3>
+          <p>Version Control, Repositories, Commits</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 70%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay: 0.55s">
+          <div class="skill-icon" style="--color: #ffd700">
+            <i class="ph ph-network"></i>
+          </div>
+          <h3>Networking</h3>
+          <p>TCP/IP, OSI Model, Protocols, Subnetting</p>
+          <div class="skill-level">
+            <div class="level-bar" style="--width: 58%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label reveal-up">// my_work</div>
+      <h2 class="section-title center reveal-up">Projects</h2>
+      <p class="section-sub reveal-up">Things I've built — from concept to code</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal-up" style="--delay: 0s">
+          <div class="project-num">01</div>
+          <div class="project-content">
+            <h3>Personal Portfolio Website</h3>
+            <p>A fully responsive personal portfolio website built with pure HTML, CSS, and JavaScript. Features smooth animations, scroll reveals, and a modern dark aesthetic.</p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/AvirupBasak" target="_blank" class="btn-ghost">
+              <i class="ph ph-github-logo"></i> View on GitHub
+            </a>
+            <i class="ph ph-arrow-up-right project-arrow"></i>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay: 0.1s">
+          <div class="project-num">02</div>
+          <div class="project-content">
+            <h3>Student Management System</h3>
+            <p>A PHP & MySQL based CRUD application to manage student records, grades, and attendance. Includes login authentication and admin dashboard.</p>
+            <div class="project-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">HTML/CSS</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/AvirupBasak" target="_blank" class="btn-ghost">
+              <i class="ph ph-github-logo"></i> View on GitHub
+            </a>
+            <i class="ph ph-arrow-up-right project-arrow"></i>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay: 0.2s">
+          <div class="project-num">03</div>
+          <div class="project-content">
+            <h3>Java Banking Application</h3>
+            <p>Object-oriented Java project simulating basic banking operations — account creation, transactions, balance inquiry — with file-based persistence.</p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">OOP</span>
+              <span class="tag">File I/O</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/AvirupBasak" target="_blank" class="btn-ghost">
+              <i class="ph ph-github-logo"></i> View on GitHub
+            </a>
+            <i class="ph ph-arrow-up-right project-arrow"></i>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay: 0.3s">
+          <div class="project-num">04</div>
+          <div class="project-content">
+            <h3>DSA in C — Problem Set</h3>
+            <p>A curated collection of Data Structures and Algorithm implementations in C — linked lists, stacks, queues, sorting algorithms, and more.</p>
+            <div class="project-tags">
+              <span class="tag">C</span>
+              <span class="tag">DSA</span>
+              <span class="tag">Algorithms</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/AvirupBasak" target="_blank" class="btn-ghost">
+              <i class="ph ph-github-logo"></i> View on GitHub
+            </a>
+            <i class="ph ph-arrow-up-right project-arrow"></i>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up coming-soon-card" style="--delay: 0.4s">
+          <div class="project-num">05</div>
+          <div class="project-content">
+            <h3>AI Assistant <span class="coming-badge">Coming Soon</span></h3>
+            <p>Personal AI assistant project — the dream build. Planning to use Python, TensorFlow, and NLP to create a conversational assistant from scratch.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">NLP</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/AvirupBasak" target="_blank" class="btn-ghost">
+              <i class="ph ph-github-logo"></i> View on GitHub
+            </a>
+            <i class="ph ph-arrow-up-right project-arrow"></i>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay: 0.5s">
+          <div class="project-num">06</div>
+          <div class="project-content">
+            <h3>Shell Script Toolkit</h3>
+            <p>A collection of useful Unix shell scripts for automating common tasks — file management, system monitoring, batch processing, and more.</p>
+            <div class="project-tags">
+              <span class="tag">Bash</span>
+              <span class="tag">Unix</span>
+              <span class="tag">Automation</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/AvirupBasak" target="_blank" class="btn-ghost">
+              <i class="ph ph-github-logo"></i> View on GitHub
+            </a>
+            <i class="ph ph-arrow-up-right project-arrow"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GOALS SECTION ========== -->
+  <section class="goals section" id="goals">
+    <div class="container">
+      <div class="section-label reveal-up">// future_vision</div>
+      <h2 class="section-title center reveal-up">What I Want To Be</h2>
+      <p class="section-sub reveal-up">The path I'm building, one commit at a time</p>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-marker">
+            <div class="marker-icon"><i class="ph ph-flag-checkered"></i></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-tag">Now</div>
+            <h3>Mastering the Fundamentals</h3>
+            <p>Deepening expertise in Java, PHP, SQL, and Unix. Building real projects to solidify CS theory. Completing BCA with strong academic performance and practical portfolio.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="timeline-marker">
+            <div class="marker-icon"><i class="ph ph-rocket-launch"></i></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-tag">Next</div>
+            <h3>AI & Machine Learning</h3>
+            <p>Transitioning into Python, TensorFlow, and deep learning. Studying CNNs, NLP, and reinforcement learning. Building real AI projects that solve meaningful problems.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-left">
+          <div class="timeline-marker">
+            <div class="marker-icon"><i class="ph ph-code-block"></i></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-tag">Goal</div>
+            <h3>Software Engineer at a Top Tech Company</h3>
+            <p>Joining an innovative company — whether a startup disrupting an industry or a tech giant pushing the boundaries of what's possible. Writing code that scales to millions.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-right">
+          <div class="timeline-marker">
+            <div class="marker-icon"><i class="ph ph-star"></i></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-tag">Dream</div>
+            <h3>Building My Own AI System</h3>
+            <p>Creating a genuinely useful AI assistant from scratch — not just using APIs, but understanding and building the intelligence underneath. Contributing to open-source AI research.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="goals-inspire reveal-up">
+        <blockquote>
+          "The best way to predict the future is to invent it."
+          <cite>— Alan Kay</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PHOTOGRAPHY SECTION ========== -->
+  <section class="hobby section" id="hobby">
+    <div class="container">
+      <div class="section-label reveal-up">// captured_moments</div>
+      <h2 class="section-title center reveal-up">Photography</h2>
+      <p class="section-sub reveal-up">The world through my lens — art is another kind of code</p>
+
+      <div class="gallery-grid reveal-up">
+        <!-- Gallery items — replace src with real images -->
+        <div class="gallery-item tall">
+          <div class="gallery-placeholder" style="--hue: 200">
+            <i class="ph ph-mountains"></i>
+          </div>
+          <div class="gallery-overlay">
+            <span>Photography by Avirup</span>
+            <i class="ph ph-camera"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder" style="--hue: 25">
+            <i class="ph ph-sunset"></i>
+          </div>
+          <div class="gallery-overlay">
+            <span>Photography by Avirup</span>
+            <i class="ph ph-camera"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder" style="--hue: 160">
+            <i class="ph ph-tree-palm"></i>
+          </div>
+          <div class="gallery-overlay">
+            <span>Photography by Avirup</span>
+            <i class="ph ph-camera"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item wide">
+          <div class="gallery-placeholder" style="--hue: 280">
+            <i class="ph ph-city"></i>
+          </div>
+          <div class="gallery-overlay">
+            <span>Photography by Avirup</span>
+            <i class="ph ph-camera"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder" style="--hue: 50">
+            <i class="ph ph-flower"></i>
+          </div>
+          <div class="gallery-overlay">
+            <span>Photography by Avirup</span>
+            <i class="ph ph-camera"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item tall">
+          <div class="gallery-placeholder" style="--hue: 340">
+            <i class="ph ph-moon-stars"></i>
+          </div>
+          <div class="gallery-overlay">
+            <span>Photography by Avirup</span>
+            <i class="ph ph-camera"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder" style="--hue: 100">
+            <i class="ph ph-leaf"></i>
+          </div>
+          <div class="gallery-overlay">
+            <span>Photography by Avirup</span>
+            <i class="ph ph-camera"></i>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-placeholder" style="--hue: 220">
+            <i class="ph ph-waves"></i>
+          </div>
+          <div class="gallery-overlay">
+            <span>Photography by Avirup</span>
+            <i class="ph ph-camera"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- <p class="gallery-note reveal-up">
+        <i class="ph ph-info"></i>
+        Replace placeholder divs with <code>&lt;img&gt;</code> tags to show real photos.
+      </p> -->
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">// get_in_touch</div>
+      <h2 class="section-title center reveal-up">Contact Me</h2>
+      <p class="section-sub reveal-up">Have a project in mind? Let's build something together.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h3>Let's Connect</h3>
+          <p>Whether you want to collaborate on a project, discuss technology, or just say hello — my inbox is always open.</p>
+
+          <div class="contact-links">
+            <a href="mailto:avirupbasak98@.com" class="contact-link">
+              <div class="contact-link-icon"><i class="ph ph-envelope-simple"></i></div>
+              <div>
+                <span class="link-label">Email</span>
+                <span class="link-val">avirupbasak98@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/AvirupBasak" target="_blank" class="contact-link">
+              <div class="contact-link-icon"><i class="ph ph-github-logo"></i></div>
+              <div>
+                <span class="link-label">GitHub</span>
+                <span class="link-val">github.com/AvirupBasak</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/avirup-basak-742ab02a0?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-link">
+              <div class="contact-link-icon"><i class="ph ph-linkedin-logo"></i></div>
+              <div>
+                <span class="link-label">LinkedIn</span>
+                <span class="link-val">Connect with me</span>
+              </div>
+            </a>
+            <a href="https://instagram.com/_avirup_._" target="_blank" class="contact-link">
+              <div class="contact-link-icon"><i class="ph ph-instagram-logo"></i></div>
+              <div>
+                <span class="link-label">Instagram</span>
+                <span class="link-val">_avirup_._</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="off" />
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="off" />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="What's on your mind?"></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+              <i class="ph ph-paper-plane-tilt"></i> Send Message
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="ph ph-check-circle"></i> Message sent! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-bracket">&lt;</span>
+          <span class="brand-name">Portfolio</span>
+          <span class="brand-bracket">/&gt;</span>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/AvirupBasak" target="_blank" aria-label="GitHub">
+            <i class="ph ph-github-logo"></i>
+          </a>
+          <a href="mailto:avirup@example.com" aria-label="Email">
+            <i class="ph ph-envelope-simple"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/avirup-basak-742ab02a0?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn">
+            <i class="ph ph-linkedin-logo"></i>
+          </a>
+          <a href="https://instagram.com/_avirup_._" target="_blank" aria-label="Instagram">
+            <i class="ph ph-instagram-logo"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Avirup Basak. Built with passion.</p>
+        <p class="footer-credit">Designed & developed by Avirup Basak</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SCROLL TO TOP ========== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="ph ph-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
