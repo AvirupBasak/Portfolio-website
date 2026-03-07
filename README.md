@@ -9,6 +9,8 @@ Visit the portfolio here:
 
 https://avirupbasak.github.io/Portfolio-website/
 
+## ⚠️Navbar is on development for mobile view
+
 ## 🚀 Technologies Used
 
 - HTML5
