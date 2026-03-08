@@ -917,6 +917,18 @@ blockquote cite {
 }
 .gallery-item:hover .gallery-placeholder { transform: scale(1.08); }
 
+.gallery-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.gallery-item:hover img{
+  transform: scale(1.08);
+}
+
+
 .gallery-overlay {
   position: absolute; inset: 0;
   background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);
