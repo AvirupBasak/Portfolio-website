@@ -11,13 +11,15 @@
 ![AI Assisted](https://img.shields.io/badge/Vibe%20Coded-AI%20Assisted-7b5ea7?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-ff6b6b?style=for-the-badge)
 
-</div>
-
- 
 ### ✨ A modern, dark cyberpunk-editorial portfolio built with pure HTML, CSS & JavaScript
 
 **[🌐 View Live Demo](https://avirupbasak.github.io/Portfolio-website/)**
  
+
+</div>
+
+ 
+
 ---
  
 ## 📸 Preview
