@@ -1,18 +1,23 @@
 # 🚀 Avirup Basak — Personal Portfolio Website
  
 <div align="center">
+
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)
+
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ![AI Assisted](https://img.shields.io/badge/Vibe%20Coded-AI%20Assisted-7b5ea7?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-ff6b6b?style=for-the-badge)
+
+</div>
+
  
 ### ✨ A modern, dark cyberpunk-editorial portfolio built with pure HTML, CSS & JavaScript
- 
+
 **[🌐 View Live Demo](https://avirupbasak.github.io/Portfolio-website/)**
  
-</div>
 ---
  
 ## 📸 Preview
